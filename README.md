@@ -1,5 +1,7 @@
 # Project-Management-Unit-DailyGrind
+
 This is a Web Application that I made with others for my Project Management Unit at University
+
 ---
 
 ### Content of the repository:
