@@ -22,7 +22,6 @@ Download the version of PHP most appropriate for your machine. Once downloaded a
 ```
 \php
 ```
-<br>
 Download at: https://www.php.net/downloads.php
 
 <br>
