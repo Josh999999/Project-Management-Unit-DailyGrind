@@ -5,47 +5,46 @@ This is a Web Application that I made with others for my Project Management Unit
 ---
 
 ### Content of the repository:
-  - **JSON** - This simulates the database for the site and stores all the songes and artists present in the users list.
-  - **JavaScript Scripts** - JavaScript scripts contains the interactivity for the site (mainly for controlling the layout of the page)
-  - **HTML** - This proivdes the layout of the main page
-  - **Python (Flask)** - This proived the backend logic for the operations that interact with the database (JSON)
-  - **CSS Styling** - Styling for the HTML pages
+  - **SQL Script** - This creates that database that the project uses to store and manage the sites data (Guitars, stands, etc)
+  - **JavaScript Scripts** - JavaScript scripts contains the interactivity for the site (mainly error checking in forms)
+  - **PHP** - These provide the pages for the site and the backend logic for the operations that interact with the database (there interact using the PHP mysqli module)
+  - **CSS Styling** - Styling for the HTML insde the PHP pages
 
 ---
 
 ## Running the site
-To run the site in it's current state you will need to follow the current steps
+To run the site in it's current state you will need to do so using Visual Studio code
 
 <br>
 
-### Step 1. Download Fask
-Download the current python version of flask using pip from the command line
+### Step 1. Download PHP
+Download the version of PHP most appropriate for your machine. Once downloaded add it to your machine at the top level as
 ```
-python3 -m pip install Flask
+\php
+```
+<br>
+Download at: https://www.php.net/downloads.php
+
+<br>
+
+### Step 2. Add PHP to the environment
+Add the PHP download to your machines enviroment variables
+```
+\php
 ```
 <br>
 
-
-### Step 2. Create a virtual environment
-Use venv to create a virual environment (container) to run the Flask application server
-```
-python3 -m venv myenv
-```
+### Step 3. Download the PHP server extension 
+Download the PHP server extension for visual studio code to run the PHP server
+![image](https://github.com/user-attachments/assets/29bb9a44-4e98-4336-823f-48efe62934d8)
 <br>
 
-
-### Step 3. Activate the virtual environment
-Activate the viirutal environment as an environment to run the Flask application server
-```
-myenv\Scripts\activate
-```
-<br>
-
-
-### Step 4. Run the Flask API
-Run the Flask API and application to server that will be used to serve the web pages
+### Step 4. Add PHP to the environment
+Run the server and load the website by serving the home page. 
 <br>
 Right click inside the home.php file and click "PHP Server: Serve Project"
+```
+home.php
 ```
 flask --app app run
 ```
