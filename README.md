@@ -46,6 +46,4 @@ Right click inside the home.php file and click "PHP Server: Serve Project"
 ```
 home.php
 ```
-flask --app app run
-```
-<br>
+
