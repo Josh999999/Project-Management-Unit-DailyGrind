@@ -43,6 +43,6 @@ Run the server and load the website by serving the home page.
 <br>
 Right click inside the home.php file and click "PHP Server: Serve Project"
 ```
-home.php
+index.php
 ```
 
