@@ -1,6 +1,5 @@
-# Web-App-Development-Unit-Music-list
-This is a website that I made for my web application programming unit at university - this site lets uses to create a list of their favourate songs for storage and reference. Users can manage the store: Add new songs from artists and update their information. Songs can also be deleted from the list.
-
+# Project-Management-Unit-DailyGrind
+This is a Web Application that I made with others for my Project Management Unit at University
 ---
 
 ### Content of the repository:
